@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +9,18 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/common.js"></script>
 </head>
+
 <body>
     <header>
         <div class="top">
             <h1 class="logo"><a href=""><span class="blind">트니트니</span></a></h1>
             <div>
-                <a href="" class="ico_location"><span class="blind">현재 위치</span></a><a href="" class="ico_alram"><span class="blind">알람</span></a>
+                <a href="" class="ico_location"><span class="blind">현재 위치</span></a><a href="" class="ico_alarm"><span class="blind">알람</span></a>
             </div>
         </div>
         <h2 class="blind">메인메뉴</h2>
@@ -39,21 +41,20 @@
                 <div class="swiper-slide">
                     <div class="visual_page visual_page1">
                         <p>
-                            <span>튼튼한 신체놀이와<br/>유대감 형성의 마음놀이</span>
+                            <span>튼튼한 신체놀이와<br />유대감 형성의 마음놀이</span>
                             <em>트니캠프!</em>
                         </p>
-                        <img src="assets/images/icon_component1.png" alt="">
+                        <img src="assets/images/logo_champ.png" alt="">
                         <a class="btn_go" href="">Go</a>
                     </div>
                 </div>
-              
                 <div class="swiper-slide">
                     <div class="visual_page visual_page2">
                         <p>
-                            <span>부담없이 집에서<br/>전문가와 함께 즐기는</span>
+                            <span>부담없이 집에서<br />전문가와 함께 즐기는</span>
                             <em>트니홈!</em>
                         </p>
-                        <img src="assets/images/icon_component2.png" alt="">
+                        <img src="assets/images/logo_home.png" alt="">
                         <a class="btn_go" href="">Go</a>
                     </div>
                 </div>
@@ -63,15 +64,442 @@
     <section>
         <h2 class="blind">로그인정보</h2>
         <div class="login_wrap">
-            <div class="login">
-                <p>트니트니 회원가입 후
-                <b>다양한 트니 활동 및 혜택을 경험하세요!</b></p>
+            <div class="login" style="display: none;">
+                <p>트니트니 회원가입 후 <b>다양한 트니 활동 및 혜택을 경험하세요!</b></p>
                 <div class="btn_wrap">
                     <a class="btn green" href="">회원가입</a>
                     <a class="btn gray" href="">로그인</a>
                 </div>
             </div>
+            <div class="logout">
+                <h2>안녕하세요. <b>승호 트니맘</b> 님</h2>
+                <div>
+                    <img src="assets/images/thumbnail1.png" alt="이름1">
+                    <img src="assets/images/thumbnail2.png" alt="이름2">
+                </div>
+                <ul>
+                    <li>
+                        <a href="">
+                            <strong>3</strong>
+                            <p>수강중</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <strong>46</strong>
+                            <p>즐겨찾기</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div>
+                                <img src="assets/images/thumbnail_char.png" alt="">
+                                <span>28</span>
+                            </div>
+                            <p>스탬프</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <strong>87</strong>
+                            <p>사진</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
+    <section>
+        <div class="tit">
+            <h2 class="h2">감사 편지</h2>
+            <a href="" class="btn_more"><span class="blind">더보기</span></a>
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper thanks">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <a href="">
+                        <h3>선생님! 잘 지내시죠?</h3>
+                        <p class="txt">저번주 트니트니 수업 다녀와서 현준이가 너무 귀여운 행동을 해서 이렇게 편지를 써요~선생님 따라 하더라구요ㅎ<br />수첩들고와서 출석부인냥 자기가 수첩보면서 부르고 대답하고ㅎㅎ방석들고와서 말했어용</p>
+                        <div class="info">
+                            <img src="/assets/images/logo_Ground.png" alt="카테고리 : 트니트니 그라운드">
+                            <span aria-label="작성자">독수리 김태훈</span>
+                        </div>
+                        <div class="info2" aria-label="작성일">24개월</div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="">
+                        <h3>사소하지만 고맙습니다.</h3>
+                        <p class="txt">선생님!<br/>벌써 수업 시작한지 1개월이 다 되어 가네요. 처음엔 우리 아이가 잘 적응할 수 있을까.. 또래 친구들과 잘 어울릴 수 있을까 노심초사 했던것 같아요. 그런 노파심이 들었어요</p>
+                        <div class="info">
+                            <img src="/assets/images/logo_Adventure.png" alt="카테고리 : 트니트니 어드벤쳐">
+                            <span aria-label="작성자">독수리 김태훈</span>
+                        </div>
+                        <div class="info2" aria-label="작성일">30개월</div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="">
+                        <h3>선생님! 잘 지내시죠?</h3>
+                        <p class="txt">저번주 트니트니 수업 다녀와서 현준이가 너무 귀여운 행동을 해서 이렇게 편지를 써요~선생님 따라 하더라구요ㅎ<br />수첩들고와서 출석부인냥 자기가 수첩보면서 부르고 대답하고ㅎㅎ방석들고와서 말했어용</p>
+                        <div class="info">
+                            <img src="/assets/images/logo_Ground.png" alt="카테고리 : 트니트니 그라운드">
+                            <span aria-label="작성자">독수리 김태훈</span>
+                        </div>
+                        <div class="info2" aria-label="작성일">24개월</div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="">
+                        <h3>사소하지만 고맙습니다.</h3>
+                        <p class="txt">선생님!<br/>벌써 수업 시작한지 1개월이 다 되어 가네요. 처음엔 우리 아이가 잘 적응할 수 있을까.. 또래 친구들과 잘 어울릴 수 있을까 노심초사 했던것 같아요. 그런 노파심이 들었어요</p>
+                        <div class="info">
+                            <img src="/assets/images/logo_Adventure.png" alt="카테고리 : 트니트니 어드벤쳐">
+                            <span aria-label="작성자">독수리 김태훈</span>
+                        </div>
+                        <div class="info2" aria-label="작성일">30개월</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="review">
+        <div class="tit">
+            <h2 class="h2_2">트니트니, 다시 만나볼까요?!</h2>
+            <a href="" class="btn_more"><span class="blind">더보기</span></a>
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper review_slide">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <a href="">
+                        <div class="right">
+                            <strong>뽀빠이</strong>
+                            <p>류제민 트니쌤</p>
+                            <span>2021.11.20</span>
+                        </div>
+                        <div class="left">
+                            <img src="assets/images/thumbnail1.png" alt="" class="thumb">
+                            <img src="assets/images/logo_champ.png" alt="" class="logo">
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="">
+                        <div class="right">
+                            <strong>홈플러스<br/>서울남현 2차</strong>
+                            <span>2021.11.20</span>
+                        </div>
+                        <div class="left">
+                            <img src="assets/images/thumbnail2.png" alt="" class="thumb">
+                            <img src="assets/images/logo_home.png" alt="" class="logo">
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="">
+                        <div class="right">
+                            <strong>뽀빠이</strong>
+                            <p>류제민 트니쌤</p>
+                            <span>2021.11.20</span>
+                        </div>
+                        <div class="left">
+                            <img src="assets/images/thumbnail1.png" alt="" class="thumb">
+                            <img src="assets/images/logo_champ.png" alt="" class="logo">
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="">
+                        <div class="right">
+                            <strong>홈플러스<br/>서울남현 2차</strong>
+                            <span>2021.11.20</span>
+                        </div>
+                        <div class="left">
+                            <img src="assets/images/thumbnail2.png" alt="" class="thumb">
+                            <img src="assets/images/logo_home.png" alt="" class="logo">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="paging"></div>
+        </div>
+        <div class="ad">
+            <a href="">
+                <img src="assets/images/@thum.png" alt="신규상품 출시 기념 리뷰쓰고 포인트 받자 12월 1일부터 12월 31일까지">
+            </a>
+        </div>
+    </section>
+    <section class="news_list">
+        <div class="tit">
+            <h2 class="h2">트니 TV</h2>
+            <a href="" class="btn_more"><span class="blind">더보기</span></a>
+        </div>
+         <!-- Slider main container -->
+        <div class="swiper_container">
+            <div class="swiper slide2">
+                <ul class="swiper-wrapper list_type">
+                    <li class="swiper-slide">
+                        <div>
+                           <a href="">
+                                <figure>
+                                    <div>
+                                        <img src="assets/images/@thum1.png" alt="">
+                                    </div>
+                                    <figcaption>
+                                        <strong>금발머리 소녀와 곰 세마리</strong>
+                                        <p>곰 세마리집에 반가운 손님이 찾아왔어요.</p>
+                                    </figcaption>
+                                </figure>
+                           </a>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div>
+                           <a href="">
+                                <figure>
+                                    <div>
+                                        <img src="assets/images/@thum2.png" alt="">
+                                    </div>
+                                    <figcaption>
+                                        <strong>우리는 트니프렌즈</strong>
+                                        <p>300만 영유아들이 경험한 놀이체육 프로그램입니다.</p>
+                                    </figcaption>
+                                </figure>
+                           </a>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div>
+                           <a href="">
+                                <figure>
+                                    <div>
+                                        <img src="assets/images/@thum1.png" alt="">
+                                    </div>
+                                    <figcaption>
+                                        <strong>금발머리 소녀와 곰 세마리</strong>
+                                        <p>곰 세마리집에 반가운 손님이 찾아왔어요.</p>
+                                    </figcaption>
+                                </figure>
+                           </a>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div>
+                           <a href="">
+                                <figure>
+                                    <div>
+                                        <img src="assets/images/@thum2.png" alt="">
+                                    </div>
+                                    <figcaption>
+                                        <strong>우리는 트니프렌즈</strong>
+                                        <p>300만 영유아들이 경험한 놀이체육 프로그램입니다.</p>
+                                    </figcaption>
+                                </figure>
+                           </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="product_list">
+        <div class="tit">
+            <h2 class="h2">트니 추천상품</h2>
+            <a href="" class="btn_more"><span class="blind">더보기</span></a>
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper_container">
+            <div class="swiper slide2">
+                <ul class="swiper-wrapper list_type">
+                    <li class="swiper-slide">
+                        <div>
+                            <a href="">
+                                <figure>
+                                    <img src="assets/images/@thum3.png" alt="">
+                                    <figcaption>
+                                        <strong>어린이 카메라 2 트니트니</strong>
+                                        <p>트니프랜즈 골드 에디션</p>
+                                        <del>64,000원</del><span>(34%)</span>
+                                        <div>
+                                            35,250원
+                                            <div class="star">
+                                                <span class="on"></span>
+                                                <span class="on"></span>
+                                                <span class="on"></span>
+                                                <span class="on"></span>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div>
+                            <a href="">
+                                <figure>
+                                    <img src="assets/images/@thum4.png" alt="">
+                                    <figcaption>
+                                        <strong>트니컬러풀 축구공</strong>
+                                        <p>푹신푹신 말랑말랑 축구교재</p>
+                                        <del>20,000원</del><span>(12%)</span>
+                                        <div>
+                                            16,500원
+                                            <div class="star">
+                                                <span class="on"></span>
+                                                <span class="on"></span>
+                                                <span class="on"></span>
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div>
+                            <a href="">
+                                <figure>
+                                    <img src="assets/images/@thum3.png" alt="">
+                                    <figcaption>
+                                        <strong>어린이 카메라 2 트니트니</strong>
+                                        <p>트니프랜즈 골드 에디션</p>
+                                        <del>64,000원</del><span>(34%)</span>
+                                        <div>
+                                            35,250원
+                                            <div class="star">
+                                                <span class="on"></span>
+                                                <span class="on"></span>
+                                                <span class="on"></span>
+                                                <span class="on"></span>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="swiper-slide">
+                        <div>
+                            <a href="">
+                                <figure>
+                                    <img src="assets/images/@thum4.png" alt="">
+                                    <figcaption>
+                                        <strong>트니컬러풀 축구공</strong>
+                                        <p>푹신푹신 말랑말랑 축구교재</p>
+                                        <del>20,000원</del><span>(12%)</span>
+                                        <div>
+                                            16,500원
+                                            <div class="star">
+                                                <span class="on"></span>
+                                                <span class="on"></span>
+                                                <span class="on"></span>
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="community">
+        <div class="tit">
+            <h2 class="h2">커뮤니티</h2>
+            <a href="" class="btn_more"><span class="blind">더보기</span></a>
+        </div>
+        <ul class="list_type">
+            <li>
+                <a href="">
+                    <h3>떼쓰기 대왕 4살아이 어떻게 해야 할까요?</h3>
+                    <p>아침에 어린이집 갈때마다 진짜 전쟁이에요.<br/>씻으러 들어가면 아주 난리난리나고, 그냥 뭐든 다 싫다 안한다 드러눕고 울고불고 악지르고...아침부터 전쟁이 시작됩니다. 돌아버리겠어요.</p>
+                    <div class="info">
+                        <div class="date">2일전</div>
+                        <div>
+                            <span class="help">도움 25</span>
+                            <span class="reply">댓글 13</span>
+                        </div>
+
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h3>연년생 키우기 힘들다힘들다 하시는데...</h3>
+                    <p>연년생 2살 1살 남매를 키우고 있는 초보(?)맘이에요... 둘째는 모유수유를해서 배고프거나 졸릴때 항상 안고 있어요. 첫째는 자동 엄마껌딱지구요. 원래는 아빠 껌딱지 였는데 정말 미치겠어요</p>
+                    <div class="info">
+                        <div class="date">2일전</div>
+                        <div>
+                            <span class="help">도움 10</span>
+                            <span class="reply">댓글 7</span>
+                        </div>
+
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <article class="banner">
+        <a href="">
+            <strong>우리 서로를 응원해요!</strong>
+            <p>지금 가장 듣고 싶은 응원의 말로<br/>서로를 위로해 주세요!</p>
+            <span>트니트니 응원 캠페인</span>
+        </a>
+    </article>
+    <section class="notice">
+        <div class="tit">
+            <h2 class="h2">공지사항</h2>
+            <a href="" class="btn_more"><span class="blind">더보기</span></a>
+        </div>
+        <ul class="list_type">
+            <li>
+                <a href="">
+                    <h3>[트니홈] 신규 프로그램 안내</h3>
+                    <div>
+                        <p>트니홈에 신규 프로그램이 추가되었습니다.</p>
+                        <div class="date">2021.11.24</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h3>[트니그라운드] 부산 아난티코브 센터 오픈</h3>
+                    <div>
+                        <p>아난티코브 2층에 트니그라운드가 새롭게 단장했습니다.</p>
+                        <div class="date">2021.11.24</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <h3>[전체공지] 홈플러스 문화센터 프로그램 안내</h3>
+                    <div>
+                        <p>2021년 하반기 홈플러스 트니트니 프로그램 추가되었습니다.</p>
+                        <div class="date">2021.11.24</div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <nav class="quick">
+        <ul>
+            <li><a href="">첫화면</a></li>
+            <li><a href="">수강하기</a></li>
+            <li><a href="">수강목록</a></li>
+            <li><a href="">마이트니</a></li>
+        </ul>
+    </nav>
 </body>
+
 </html>
